@@ -49,7 +49,7 @@ export const feedback = [
     content:
       "Blockchain is the beginning of a revolution, which will change the orthodox methods of transactions.",
     name: "Jaya Gangwani",
-    title: "Assistant Professor",
+    title: "Assistant Professor, JIETDAT",
     img: people01,
   },
   {
@@ -65,7 +65,7 @@ export const feedback = [
     content:
       "Environment  friendly technology will not affect  nature, most compatible amd highly secure.",
     name: "Pankaj Acharya",
-    title: "HOD",
+    title: "HOD JIETDAT(Tech.)",
     img: people03,
   },
 ];

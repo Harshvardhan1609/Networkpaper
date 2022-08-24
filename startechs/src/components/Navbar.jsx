@@ -1,14 +1,15 @@
 import {useState } from 'react'
 
 import { close, logo, menu } from '../assets';
+import logo3 from '../assets/logo3.png'
 import { navLinks } from '../constants';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-        <img src={logo} alt="hoobank" className="w-[248px] h-[64px]"/>
+    <nav className="w-full flex py-6 justify-between items-center navbar top-0 z-[-1]">
+        <img src={logo3} alt="hoobank" className="w-[250px] h-[54px] ml-10 mt-0"/>
     
     <ul className="list-none sm:flex hidden justify-end items-center flex-1">
        {navLinks.map((nav, index) => (
@@ -23,7 +24,7 @@ const Navbar = () => {
        ))}
       </ul>
       
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden mr-5 flex flex-1 justify-end items-center">
 
           <img src={toggle ? close : menu} 
           alt="menu"
